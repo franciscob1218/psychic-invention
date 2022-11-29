@@ -1,0 +1,19 @@
+{
+  "name": "psychic-invention",
+  "version": "1.0.0",
+  "description": "Vue.js for a Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franciscob1218/psychic-invention.git"
+  },
+  "author": "Franciscob1218",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/franciscob1218/psychic-invention/issues"
+  },
+  "homepage": "https://github.com/franciscob1218/psychic-invention#readme"
+}
