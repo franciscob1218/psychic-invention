@@ -13,5 +13,3 @@ app.use(router);
 
 //mounts the app to the appropriate div
 app.mount("#app");
-
-

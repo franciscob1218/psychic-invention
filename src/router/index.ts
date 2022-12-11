@@ -1,6 +1,9 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
-import AboutView from "../views/AboutView.vue";
+//import AboutView from "../views/AboutView.vue";
+//import MusicView from "../views/MusicView.vue";
+//import NewsView from "../views/MusicView.vue";
+//import ContactView from "../views/MusicView.vue";
 
 //considered the plugin install method
 const router = createRouter({
@@ -18,6 +21,21 @@ const router = createRouter({
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
       component: AboutView,
+    },
+    {
+      path: "/",
+      name: "music",
+      component: MusicView,
+    },
+    {
+      path: "/",
+      name: "news",
+      component: NewsView,
+    },
+    {
+      path: "/",
+      name: "contact",
+      component: ContactView,
     },
   ],
 });
