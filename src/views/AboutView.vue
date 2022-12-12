@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <script setup lang="ts">
 
 </script>
@@ -12,5 +11,3 @@
 <style>
 
 </style>
-=======
->>>>>>> parent of dec9667... Re commit
