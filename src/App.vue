@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { RouterView } from "vue-router";
+<<<<<<< HEAD
 import Nav from "../src/views/Nav.vue"
 import Footer from "./views/Footer.vue"
 
@@ -12,9 +13,19 @@ import Footer from "./views/Footer.vue"
   </header>
 
   <body>
-    <RouterView />
-  </body>
+=======
+import Navbar from "./components/Nav_Bar.vue";
+</script>
 
+<template>
+  <header>
+
+    <Navbar />
+
+>>>>>>> parent of dec9667... Re commit
+    <RouterView />
+
+<<<<<<< HEAD
   <footer>
     <Footer />
   </footer>
@@ -22,3 +33,10 @@ import Footer from "./views/Footer.vue"
 </template>
 
 <style module></style>
+=======
+  </header>
+</template>
+
+<style scoped>
+</style>
+>>>>>>> parent of dec9667... Re commit
